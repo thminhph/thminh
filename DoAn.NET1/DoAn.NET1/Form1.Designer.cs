@@ -44,6 +44,9 @@
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnSinhVien = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDangKiHP = new DevExpress.XtraBars.BarButtonItem();
+            this.btnBangDiem = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -57,7 +60,6 @@
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.SkinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
             this.ribbonControl2 = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.btnSinhVien = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.tabHienThi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl2)).BeginInit();
             this.SuspendLayout();
@@ -148,6 +150,8 @@
             // 
             this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup10.ItemLinks.Add(this.btnSinhVien);
+            this.ribbonPageGroup10.ItemLinks.Add(this.btnDangKiHP);
+            this.ribbonPageGroup10.ItemLinks.Add(this.btnBangDiem);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             this.ribbonPageGroup10.Text = "RibbonPageGroup2";
             // 
@@ -158,6 +162,31 @@
             this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
             this.barButtonItem1.Name = "barButtonItem1";
             this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            // 
+            // btnSinhVien
+            // 
+            this.btnSinhVien.Caption = "Sinh Viên";
+            this.btnSinhVien.Id = 9;
+            this.btnSinhVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSinhVien.ImageOptions.Image")));
+            this.btnSinhVien.Name = "btnSinhVien";
+            this.btnSinhVien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSinhVien_ItemClick);
+            // 
+            // btnDangKiHP
+            // 
+            this.btnDangKiHP.Caption = "Đăng Ký Học Phần";
+            this.btnDangKiHP.Id = 10;
+            this.btnDangKiHP.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDangKiHP.ImageOptions.Image")));
+            this.btnDangKiHP.Name = "btnDangKiHP";
+            this.btnDangKiHP.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDangKiHP_ItemClick);
+            // 
+            // btnBangDiem
+            // 
+            this.btnBangDiem.Caption = "Bảng Điểm";
+            this.btnBangDiem.Id = 11;
+            this.btnBangDiem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBangDiem.ImageOptions.Image")));
+            this.btnBangDiem.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnBangDiem.ImageOptions.LargeImage")));
+            this.btnBangDiem.Name = "btnBangDiem";
+            this.btnBangDiem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnBangDiem_ItemClick);
             // 
             // ribbonPageGroup11
             // 
@@ -263,10 +292,12 @@
             this.btnRestore,
             this.SkinRibbonGalleryBarItem1,
             this.barButtonItem1,
-            this.btnSinhVien});
+            this.btnSinhVien,
+            this.btnDangKiHP,
+            this.btnBangDiem});
             this.ribbonControl2.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl2.Margin = new System.Windows.Forms.Padding(4);
-            this.ribbonControl2.MaxItemId = 10;
+            this.ribbonControl2.MaxItemId = 12;
             this.ribbonControl2.Name = "ribbonControl2";
             this.ribbonControl2.OptionsMenuMinWidth = 495;
             this.ribbonControl2.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -276,13 +307,6 @@
             this.ribbonControl2.Size = new System.Drawing.Size(1137, 231);
             this.ribbonControl2.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Above;
             this.ribbonControl2.Click += new System.EventHandler(this.ribbonControl2_Click);
-            // 
-            // btnSinhVien
-            // 
-            this.btnSinhVien.Caption = "Sinh Viên";
-            this.btnSinhVien.Id = 9;
-            this.btnSinhVien.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSinhVien.ImageOptions.SvgImage")));
-            this.btnSinhVien.Name = "btnSinhVien";
             // 
             // frmMain
             // 
@@ -334,6 +358,8 @@
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem btnSinhVien;
+        private DevExpress.XtraBars.BarButtonItem btnDangKiHP;
+        public DevExpress.XtraBars.BarButtonItem btnBangDiem;
     }
 }
 

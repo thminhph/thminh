@@ -61,11 +61,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangKiHocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKiHocPhan.Designer.cs">
+      <DependentUpon>DangKiHocPhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBangDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBangDiem.Designer.cs">
+      <DependentUpon>frmBangDiem.cs</DependentUpon>
     </Compile>
     <Compile Include="frmChangePass.cs">
       <SubType>Form</SubType>
@@ -85,6 +97,12 @@
     <Compile Include="frmRegister.Designer.cs">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSInhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSInhVien.Designer.cs">
+      <DependentUpon>frmSInhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmThongTinGV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,8 +117,14 @@
     <Compile Include="frmGiaoVien.Designer.cs">
       <DependentUpon>frmGiaoVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DangKiHocPhan.resx">
+      <DependentUpon>DangKiHocPhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBangDiem.resx">
+      <DependentUpon>frmBangDiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmChangePass.resx">
       <DependentUpon>frmChangePass.cs</DependentUpon>
@@ -110,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegister.resx">
       <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSInhVien.resx">
+      <DependentUpon>frmSInhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThongTinGV.resx">
       <DependentUpon>frmThongTinGV.cs</DependentUpon>
