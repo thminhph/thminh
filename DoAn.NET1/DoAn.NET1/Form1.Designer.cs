@@ -102,6 +102,7 @@
             this.tabHienThi.ShowTabHeader = DevExpress.Utils.DefaultBoolean.True;
             this.tabHienThi.Size = new System.Drawing.Size(1137, 295);
             this.tabHienThi.TabIndex = 7;
+            this.tabHienThi.Click += new System.EventHandler(this.tabHienThi_Click);
             // 
             // ribbonPage1
             // 
