@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{A0DE8BB3-BB0F-4148-81B8-2D256E29773F}|DoAn.NET1\\GUI.csproj|solutionrelative:doan.net1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0DE8BB3-BB0F-4148-81B8-2D256E29773F}|DoAn.NET1\\GUI.csproj|d:\\.net\\doan.net\\doan.net1\\doan.net1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A0DE8BB3-BB0F-4148-81B8-2D256E29773F}|DoAn.NET1\\GUI.csproj|D:\\.NET\\DoAn.NET\\DoAn.NET1\\doan.net1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A0DE8BB3-BB0F-4148-81B8-2D256E29773F}|DoAn.NET1\\GUI.csproj|solutionrelative:doan.net1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -68,8 +68,7 @@
               "ToolTip": "D:\\.NET\\DoAn.NET\\DoAn.NET1\\DoAn.NET1\\Form1.cs [Design]",
               "RelativeToolTip": "DoAn.NET1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T06:47:55.948Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-01T06:47:55.948Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "ToolTip": "D:\\.NET\\DoAn.NET\\DoAn.NET1\\DoAn.NET1\\frmRegister.cs [Design]",
               "RelativeToolTip": "DoAn.NET1\\frmRegister.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T21:41:25.684Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-02T21:41:25.684Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "DoAn.NET1\\Form1.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T21:55:59.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T21:55:59.587Z"
             },
             {
               "$type": "Document",

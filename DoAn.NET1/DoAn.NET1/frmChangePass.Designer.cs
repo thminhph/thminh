@@ -31,6 +31,9 @@
             this.btnHuy = new DevExpress.XtraEditors.SimpleButton();
             this.btnThay = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.txtPassWord = new DevExpress.XtraEditors.TextEdit();
             this.txtPass = new DevExpress.XtraEditors.TextEdit();
             this.txtUser = new DevExpress.XtraEditors.TextEdit();
@@ -40,15 +43,12 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassWord.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUser.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHuy
@@ -86,6 +86,31 @@
             this.groupControl1.Size = new System.Drawing.Size(776, 339);
             this.groupControl1.TabIndex = 5;
             this.groupControl1.Text = "Thay Đổi Tài Khoản";
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(280, 275);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(311, 26);
+            this.textEdit1.TabIndex = 6;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl7.Appearance.Options.UseForeColor = true;
+            this.labelControl7.Location = new System.Drawing.Point(185, 282);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(9, 19);
+            this.labelControl7.TabIndex = 4;
+            this.labelControl7.Text = "*";
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Location = new System.Drawing.Point(47, 278);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(132, 19);
+            this.labelControl8.TabIndex = 5;
+            this.labelControl8.Text = "Nhập Lại Mật Khẩu";
             // 
             // txtPassWord
             // 
@@ -162,31 +187,6 @@
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Tên Đăng Nhập";
             // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(280, 275);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(311, 26);
-            this.textEdit1.TabIndex = 6;
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(185, 282);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(9, 19);
-            this.labelControl7.TabIndex = 4;
-            this.labelControl7.Text = "*";
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Location = new System.Drawing.Point(47, 278);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(132, 19);
-            this.labelControl8.TabIndex = 5;
-            this.labelControl8.Text = "Nhập Lại Mật Khẩu";
-            // 
             // frmChangePass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -196,14 +196,15 @@
             this.Controls.Add(this.btnThay);
             this.Controls.Add(this.groupControl1);
             this.Name = "frmChangePass";
-            this.Text = "frmChangePass";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Đổi Mật Khẩu";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassWord.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUser.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
