@@ -68,5 +68,10 @@ namespace DoAn.NET1
                 this.Close();
             }
         }
+
+        private void tabHienThi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
