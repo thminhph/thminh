@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using DevExpress.Utils.Extensions;
 using DevExpress.XtraEditors;
 
 namespace DoAn.NET1
@@ -46,6 +47,26 @@ namespace DoAn.NET1
         {
             frmLogin frmLogin = new frmLogin();
             frmLogin.ShowDialog();
+        }
+
+        private void btnChagePass_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmChangePass frmChangePass = new frmChangePass();
+            frmChangePass.TopLevel = false;
+            frmChangePass.AutoScroll = true;
+            DevExpress.XtraTab.XtraTabPage xt = new DevExpress.XtraTab.XtraTabPage();
+            xt.Controls.Add(frmChangePass);
+            frmChangePass.Show();
+            tabHienThi.TabPages.Add(xt);
+            
+        }
+
+        private void btnLoginOut_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (XtraMessageBox.Show("Bạn có muốn đăng xuất không  ?", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)== DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

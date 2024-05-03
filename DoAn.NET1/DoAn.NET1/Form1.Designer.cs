@@ -99,6 +99,7 @@
             this.tabHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabHienThi.Location = new System.Drawing.Point(0, 231);
             this.tabHienThi.Name = "tabHienThi";
+            this.tabHienThi.ShowTabHeader = DevExpress.Utils.DefaultBoolean.True;
             this.tabHienThi.Size = new System.Drawing.Size(1137, 295);
             this.tabHienThi.TabIndex = 7;
             // 
@@ -184,6 +185,7 @@
             this.btnChagePass.Id = 2;
             this.btnChagePass.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnChagePass.ImageOptions.Image")));
             this.btnChagePass.Name = "btnChagePass";
+            this.btnChagePass.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChagePass_ItemClick);
             // 
             // btnLoginOut
             // 
@@ -191,6 +193,7 @@
             this.btnLoginOut.Id = 3;
             this.btnLoginOut.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLoginOut.ImageOptions.Image")));
             this.btnLoginOut.Name = "btnLoginOut";
+            this.btnLoginOut.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLoginOut_ItemClick);
             // 
             // btnPhanQuyen
             // 
