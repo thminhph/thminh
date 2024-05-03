@@ -56,6 +56,7 @@
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.SkinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
             this.ribbonControl2 = new DevExpress.XtraBars.Ribbon.RibbonControl();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.tabHienThi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl2)).BeginInit();
             this.SuspendLayout();
@@ -144,6 +145,7 @@
             // 
             // ribbonPageGroup10
             // 
+            this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             this.ribbonPageGroup10.Text = "RibbonPageGroup2";
             // 
@@ -249,10 +251,11 @@
             this.btnPhanQuyen,
             this.btnBackup,
             this.btnRestore,
-            this.SkinRibbonGalleryBarItem1});
+            this.SkinRibbonGalleryBarItem1,
+            this.barButtonItem1});
             this.ribbonControl2.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl2.Margin = new System.Windows.Forms.Padding(4);
-            this.ribbonControl2.MaxItemId = 8;
+            this.ribbonControl2.MaxItemId = 9;
             this.ribbonControl2.Name = "ribbonControl2";
             this.ribbonControl2.OptionsMenuMinWidth = 495;
             this.ribbonControl2.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -262,6 +265,14 @@
             this.ribbonControl2.Size = new System.Drawing.Size(1137, 231);
             this.ribbonControl2.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Above;
             this.ribbonControl2.Click += new System.EventHandler(this.ribbonControl2_Click);
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Giáo Viên";
+            this.barButtonItem1.Id = 8;
+            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // frmMain
             // 
@@ -311,6 +322,7 @@
         internal DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         internal DevExpress.XtraBars.SkinRibbonGalleryBarItem SkinRibbonGalleryBarItem1;
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }
 

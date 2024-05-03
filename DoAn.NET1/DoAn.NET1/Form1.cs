@@ -73,5 +73,16 @@ namespace DoAn.NET1
         {
 
         }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+          frmGiaoVien frmGiaoVien = new frmGiaoVien();
+            frmGiaoVien.TopLevel = false;
+            frmGiaoVien.AutoScroll = true;
+            DevExpress.XtraTab.XtraTabPage xt = new DevExpress.XtraTab.XtraTabPage();
+            xt.Controls.Add(frmGiaoVien);
+            frmGiaoVien.Show();
+            tabHienThi.TabPages.Add(xt);
+        }
     }
 }
